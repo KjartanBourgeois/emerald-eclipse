@@ -1,0 +1,21 @@
+{
+  "name": "nightly-watch",
+  "displayName": "nightly-watch",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nightly Watch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nightly Watch-color-theme.json"
+      }
+    ]
+  }
+}
