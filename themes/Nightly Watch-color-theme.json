@@ -69,13 +69,14 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#9AA5B1"
+			  "foreground": "#9AA5B1"
 			}
-		},
+		  },
 		  {
 			"scope": "keyword",
 			"settings": {
-			  "foreground": "#fede5d"
+			  "foreground": "#fede5d",
+			  "fontStyle": "italic"
 			}
 		  },
 		  {
@@ -84,7 +85,8 @@
 			  "storage.type"
 			],
 			"settings": {
-			  "foreground": "#fede5d"
+			  "foreground": "#fede5d",
+			  "fontStyle": "italic",
 			}
 		  },
 		  {
@@ -94,5 +96,25 @@
 			  "foreground": "#5DFE8E"
 			}
 		  },
+		  {
+			"scope": "support.function",
+			"settings": {
+			  "foreground": "#4DA6FF",
+			}
+		  },
+		  {
+			"scope": "entity.name.function.php",
+			"settings": {
+			  "foreground": "#4DA6FF",
+			  "fontStyle": "italic"
+			}
+		  },
+		  {
+			"scope": "entity.name.type.class.php",
+			"settings": {
+			  "foreground": "#20B2AA",
+			  "fontStyle": "italic"
+			}
+		  }
 	]
 }
