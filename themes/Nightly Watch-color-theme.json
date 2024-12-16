@@ -103,7 +103,28 @@
 			}
 		  },
 		  {
+			"scope": "string",
+			"settings": {
+			  "foreground": "#EABA6B"
+			}
+		  },
+		  {
+			"scope": "constant.numeric",
+			"settings": {
+			  "foreground": "#E6B450",
+			}
+		  },
+
+		  //PHP
+		  {
 			"scope": "entity.name.function.php",
+			"settings": {
+			  "foreground": "#4DA6FF",
+			  "fontStyle": "italic"
+			}
+		  },
+		  {
+			"scope": "support.class.php",
 			"settings": {
 			  "foreground": "#4DA6FF",
 			  "fontStyle": "italic"
@@ -115,6 +136,105 @@
 			  "foreground": "#20B2AA",
 			  "fontStyle": "italic"
 			}
+		  },
+
+		  //HTML
+
+		  {
+			"scope": "entity.name.tag",
+			"settings": {
+			  "foreground": "#fede5d", // Match with keyword color for tags
+			  "fontStyle": "bold"
+			}
+		  },
+		  {
+			"scope": [
+			  "punctuation.definition.tag",
+			  "punctuation.definition.attribute",
+			  "punctuation.separator.key-value"
+			],
+			"settings": {
+			  "foreground": "#4DA6FF" // Match with comment color for punctuation
+			}
+		  },
+		  {
+			"scope": "entity.other.attribute-name",
+			"settings": {
+			  "foreground": "#5DFE8E", // Match with variable color for attributes
+			  "fontStyle": "italic"
+			}
+		  },
+		  {
+			"scope": "string.quoted.double.html",
+			"settings": {
+			  "foreground": "#EABA6B" // Match with string color for attribute values
+			}
+		  },
+		  {
+			"scope": [
+			  "meta.tag.inline.any.html",
+			  "meta.tag.block.any.html"
+			],
+			"settings": {
+			  "foreground": "#4DA6FF" // Match with function color for inline tags
+			}
+		  },
+
+		  //BLADE
+
+		  {
+			"scope": [
+			  "punctuation.definition.tag.blade", // Blade directives like @if, @foreach
+			  "entity.name.tag.blade" // The `@` in Blade directives
+			],
+			"settings": {
+			  "foreground": "#fede5d", // Use the same color as keywords
+			  "fontStyle": "bold"
+			}
+		  },
+		  {
+			"scope": "keyword.control.blade", // Blade keywords: @if, @foreach, @else
+			"settings": {
+			  "foreground": "#FF6F61", // Distinct bright color for Blade-specific directives
+			  "fontStyle": "italic bold"
+			}
+		  },
+		  {
+			"scope": [
+			  "blade.embedded.php", // PHP code embedded in Blade
+			  "source.php.embedded.line.html"
+			],
+			"settings": {
+			  "foreground": "#5DFE8E" // Match variable color
+			}
+		  },
+		  {
+			"scope": [
+			  "string.quoted.double.blade", // Double-quoted strings in Blade
+			  "string.quoted.single.blade"
+			],
+			"settings": {
+			  "foreground": "#EABA6B" // Match string color
+			}
+		  },
+		  {
+			"scope": "constant.language.blade", // Constants in Blade, e.g., __() for translations
+			"settings": {
+			  "foreground": "#4DA6FF", // Match support.function
+			  "fontStyle": "italic"
+			}
+		  },
+		  {
+			"scope": [
+			  "meta.embedded.line.blade", // Embedded PHP or expressions in Blade: {{ $variable }}
+			  "punctuation.section.embedded.begin.blade", // Opening braces {{
+			  "punctuation.section.embedded.end.blade" // Closing braces }}
+			],
+			"settings": {
+			  "foreground": "#20B2AA", // Stand out with teal for expressions
+			  "fontStyle": "bold"
+			}
 		  }
+
 	]
 }
