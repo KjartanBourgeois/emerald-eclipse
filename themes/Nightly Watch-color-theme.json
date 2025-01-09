@@ -48,7 +48,14 @@
     "input.border": "#3B3B4F", // Input border
     "inputValidation.infoBorder": "#6699CC", // Border on focus/info
     "inputValidation.warningBorder": "#F99157", // Warning border
-    "inputValidation.errorBorder": "#EC5F67"
+    "inputValidation.errorBorder": "#EC5F67",
+
+	//PEEK
+	"peekView.border": "#3B3B4F",
+	"peekViewEditor.background": "#1E1E2E",
+	"peekViewResult.background": "#1E1E2E",
+	"peekViewTitle.background": "#1E1E2E",
+
 
     //"activityBar.inactiveForeground": "#131112",
     //"selection.background": "#0078beb1"
@@ -328,7 +335,55 @@
 		  "foreground": "#20B2AA", // Teal for URL values (e.g., url('image.jpg'))
 		  "fontStyle": "italic"
 		}
-	  }
+	  },
+
+	//MARKDOWN
+	  {
+		"scope": "markup.heading",
+		"settings": {
+		  "foreground": "#fede5d", // Gold for headings
+		  "fontStyle": "bold"
+		}
+	  },
+	  {
+		"scope": "markup.bold",
+		"settings": {
+		  "foreground": "#5DFE8E", // Bright green for bold text
+		  "fontStyle": "bold"
+		}
+	  },
+	  {
+		"scope": "markup.italic",
+		"settings": {
+		  "foreground": "#EABA6B", // Yellow for italic text
+		  "fontStyle": "italic"
+		}
+	  },
+	  {
+		"scope": "markup.inline",
+		"settings": {
+		  "foreground": "#4DA6FF" // Blue for inline code
+		}
+	  },
+	  {
+		"scope": "markup.quote",
+		"settings": {
+		  "foreground": "#9AA5B1" // Grey for blockquotes
+		}
+	  },
+	  {
+		"scope": "punctuation.definition.markdown",
+		"settings": {
+		  "foreground": "#4DA6FF" // Grey for punctuation
+		}
+	  },
+	  {
+		"scope": "fenced_code.block.language.markdown",
+		"settings": {
+		  "foreground": "#4DA6FF" // Grey for punctuation
+		}
+	  },
+
 
   ]
 }
