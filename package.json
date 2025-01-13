@@ -1,6 +1,7 @@
 {
   "name": "emerald-eclipse",
   "displayName": "emerald-eclipse",
+  "publisher": "KjartanBourgeois",
   "description": "",
   "version": "0.9.0",
   "engines": {
