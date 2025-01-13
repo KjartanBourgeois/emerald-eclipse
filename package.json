@@ -1,18 +1,25 @@
 {
-  "name": "nightly-watch",
-  "displayName": "nightly-watch",
+  "name": "emerald-eclipse",
+  "displayName": "emerald-eclipse",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.9.0",
   "engines": {
     "vscode": "^1.95.0"
   },
   "categories": [
     "Themes"
   ],
+  "keyword": [
+	"theme",
+	"dark",
+	"color",
+	"vscode",
+    "emerald"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "Nightly Watch",
+        "label": "Emerald Eclipse",
         "uiTheme": "vs-dark",
         "path": "./themes/Nightly Watch-color-theme.json"
       }
