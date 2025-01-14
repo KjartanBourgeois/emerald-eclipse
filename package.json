@@ -3,7 +3,7 @@
   "displayName": "Emerald Eclipse",
   "publisher": "KjartanBourgeois",
   "description": "",
-  "version": "0.9.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.95.0"
   },
@@ -27,7 +27,7 @@
       {
         "label": "Emerald Eclipse",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nightly Watch-color-theme.json"
+        "path": "./themes/Emerald-Eclipse-color-theme.json"
       }
     ]
   }
