@@ -141,6 +141,13 @@
         "fontStyle": "italic"
       }
     },
+    {
+      "scope": "entity.name.variable.parameter.php",
+      "settings": {
+        "foreground": "#20B2AA",
+        "fontStyle": "italic"
+      }
+    },
 
     //HTML
 
@@ -384,6 +391,18 @@
 		}
 	  },
 
-
+      //TypeScript
+      {
+		"scope": ["entity.name.type.ts", "entity.name.function.ts"],
+		"settings": {
+		  "foreground": "#4DA6FF" // Grey for punctuation
+		}
+	  },
+      {
+		"scope": ["meta.object-literal.key.ts"],
+		"settings": {
+		  "foreground": "#20B2AA" // Grey for punctuation
+		}
+	  },
   ]
 }

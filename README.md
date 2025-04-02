@@ -26,6 +26,7 @@
 - PHP
 - Blade
 - Markdown
+- Typescript (WIP)
 
 # How to Contribute
 
